@@ -38,7 +38,6 @@ Add a basic integration into the page
 
 ```html
 <div class="coveo-search-section">
-    <!-- <div class="CoveoCustomPipelineContext"></div> -->
     <div class="CoveoAnalytics"></div>
     <div class="CoveoSearchbox" data-enable-omnibox="true"></div>
 </div>
@@ -59,7 +58,7 @@ Add the following script if you're serving the component independently via a CDN
 </script>
 ```
 
-Add the following script if you're serving the component from the project bundle using the `swapVar` utility:
+Add the following script if the searchbox initializer is bundled with other components:
 
 ```html
 <script>
