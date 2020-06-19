@@ -21,6 +21,6 @@
         "coveo-search-ui": "^2.9159.6"
     },
     "devDependencies": {
-        "@coveops/cli": "^0.6.7"
+        "@coveops/cli": "^0.8.1"
     }
 }
